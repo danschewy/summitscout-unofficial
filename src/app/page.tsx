@@ -24,6 +24,12 @@ export default function Home() {
       href: "/highlights",
       color: "bg-red-500",
     },
+    {
+      title: "Sponsors",
+      description: "Meet the organizations making this summit possible",
+      href: "/sponsors",
+      color: "bg-yellow-500",
+    },
   ];
 
   return (
@@ -35,19 +41,19 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {features.map((feature) => (
           <a
             key={feature.title}
             href={feature.href}
-            className="group block p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border border-gray-200 hover:border-gray-300"
+            className="group block p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border border-gray-800 hover:border-gray-700 bg-gray-900"
           >
             <div
               className={`w-12 h-12 ${feature.color} rounded-full mb-4 flex items-center justify-center text-white`}
             >
               <span className="text-xl font-bold">{feature.title[0]}</span>
             </div>
-            <h2 className="text-xl font-semibold mb-2 group-hover:text-blue-600">
+            <h2 className="text-xl font-semibold mb-2 text-white group-hover:text-blue-400">
               {feature.title}
             </h2>
             <p className="text-gray-400">{feature.description}</p>
