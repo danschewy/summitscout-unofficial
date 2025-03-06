@@ -93,6 +93,16 @@ export default function RootLayout({
                   Dan Brand
                 </a>
               </div>
+              <div className="text-sm mt-2">
+                <a
+                  href="https://lu.ma/drai25"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  Register for the Summit →
+                </a>
+              </div>
             </div>
           </footer>
         </div>

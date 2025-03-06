@@ -153,8 +153,8 @@ export default function Schedule() {
             speakers and attendees
           </li>
           <li>
-            • Don't miss the Empire Space Cocktail Reception - a perfect way to
-            end the day!
+            • Don&apos;t miss the Empire Space Cocktail Reception - a perfect
+            way to end the day!
           </li>
         </ul>
       </div>
