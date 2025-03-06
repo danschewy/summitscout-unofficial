@@ -32,7 +32,10 @@ export default function Sponsors() {
       description:
         "ffVC is one of the best performing seed and early-stage venture capital firms in New York. They invest across emerging industries, with a strong focus on AI, Enterprise Software, FinTech, Automation, and Sustainability.",
       category: "Host",
-      social: {},
+      social: {
+        twitter: "https://x.com/ffvc",
+        instagram: "https://instagram.com/ffvc",
+      },
     },
   ];
 
@@ -43,6 +46,17 @@ export default function Sponsors() {
         <p className="text-gray-600">
           The Drones & Robotics AI Summit is made possible by our generous
           sponsors and partners
+        </p>
+        <p className="text-gray-600 mt-2">
+          Program organized by Oliver Mitchell of ff Venture Capital, author of{" "}
+          <a
+            href="https://amzn.to/43ozxDt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 transition-colors underline"
+          >
+            A Startup Field Guide in the Age of Robots and AI
+          </a>
         </p>
       </div>
 
@@ -121,7 +135,9 @@ export default function Sponsors() {
             >
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">{org.name}</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-400">
+                    {org.name}
+                  </h3>
                   <p className="text-gray-600">{org.description}</p>
                 </div>
                 {(org.social.instagram || org.social.twitter) && (
@@ -167,7 +183,7 @@ export default function Sponsors() {
       </div>
 
       <div className="mt-8 p-6 border rounded-lg bg-blue-50">
-        <h2 className="text-xl font-semibold mb-4">
+        <h2 className="text-xl font-semibold mb-4 text-green-300">
           Interested in Sponsoring?
         </h2>
         <p className="text-gray-700 mb-4">
