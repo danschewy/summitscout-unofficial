@@ -1,9 +1,9 @@
 import Image from "next/image";
-import geniusny from "@/images/sponsors/geniusny.avif";
-import cooley from "@/images/sponsors/cooley.avif";
-import trinet from "@/images/sponsors/trinet.avif";
-import nystec from "@/images/sponsors/nystec.avif";
-import jpmorgan from "@/images/sponsors/jpmorgan.avif";
+import geniusny from "@/images/sponsors/geniusny.png";
+import cooley from "@/images/sponsors/cooley.png";
+import trinet from "@/images/sponsors/trinet.png";
+import nystec from "@/images/sponsors/nystec.png";
+import jpmorgan from "@/images/sponsors/jpmorgan.png";
 
 export default function Sponsors() {
   const organizers = [
