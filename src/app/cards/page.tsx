@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Cards() {
   // Each card is 3.5 x 2 inches (standard business card size)
   const cards = Array(10).fill(0); // 8 cards per page (2 rows of 4)
@@ -50,7 +48,7 @@ export default function Cards() {
           <div className="space-y-4 text-gray-600">
             <p>To print these business cards:</p>
             <ol className="list-decimal list-inside space-y-2">
-              <li>Use standard letter-size paper (8.5" x 11")</li>
+              <li>Use standard letter-size paper (8.5&quot; x 11&quot;)</li>
               <li>Set your printer to landscape orientation</li>
               <li>
                 Enable background graphics in your browser's print settings
