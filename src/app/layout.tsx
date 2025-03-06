@@ -39,7 +39,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
-          <header className="bg-blue-600 text-white shadow-md">
+          <header className="bg-blue-600 text-white shadow-md print:hidden">
             <div className="container mx-auto px-4 py-4">
               <div className="flex justify-between items-center">
                 <div className="flex flex-row gap-4 items-center">
@@ -77,7 +77,7 @@ export default function RootLayout({
           <main className="flex-grow container mx-auto px-4 py-8">
             {children}
           </main>
-          <footer className="bg-gray-100 border-t">
+          <footer className="bg-gray-100 border-t print:hidden">
             <div className="container mx-auto px-4 py-4 text-center text-gray-600">
               <div>
                 © 2025 Summit Scout - Built for Drones & Robotics AI Summit
